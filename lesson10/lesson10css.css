@@ -1,0 +1,86 @@
+.cat{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+.cat-pic{
+    display: inline-block;
+}
+.cat-info{
+    margin-left: 50px;
+    display: inline-block;
+}
+.p1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.p2 ,.p3{
+    color: gray;
+    margin-top: 0px;
+}
+.fallow{
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: 30px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border:none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+}
+.lesson-img{
+width: 300px;
+}
+.lesson-pic{
+    display: inline-block;
+}
+.lesson-info{
+    
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: 60px;
+    
+}
+.p11{
+    
+    width: 350px;
+    font-size: 30px;
+    
+}
+.img{
+    width: 100%;
+}
+.cat1{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.cat-info-pic{
+    display: inline-block;
+}
+.cat-info-p{
+    display: inline-block;
+    vertical-align: top;
+}
+.friend{
+    display: inline-block;
+    margin-left: 15px;
+    box-shadow: 0 0 0 5px rgba(0, 0,0,0.15);
+}
+.img-div{
+    
+}
+.info-div{
+    
+
+}
+.grid-cat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+

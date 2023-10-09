@@ -1,0 +1,123 @@
+.squre{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: block;
+}
+.circel{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    border-radius: 50px;
+
+
+}
+.wrap{
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+
+}
+.install{
+  width: 400px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(66, 66, 66);
+  padding-top: 1px;
+}
+.cat{
+    width: 540px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    box-shadow: 0 0 0 5px rgba(128,128,128,0.15);
+    border: none;
+    border-radius: 10px;
+}
+.img{
+    padding-left: 20px;
+    vertical-align: -10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.catp{
+
+    display: inline-block;
+    color: gray;
+    font-size: 25px;
+}
+.btn{
+    margin-left: 120px;
+    border:none;
+    color: white;
+    background-color: rgb(64, 64, 241);
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.catdiv{
+    border: 1px solid rgb(206, 206, 206);
+    width: 200px;
+    height: 380px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display:inline-block;
+    margin-right: 25px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+}
+.catp1{
+   font-size: 25px;
+   margin-left: 10px;
+   
+
+}
+.catp2{
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+}
+.catbtn{
+    margin-left: 10px;
+    height: 40px;
+    width: 140px;
+    background-color:rgb(64, 64, 241) ;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.logodiv{
+    text-align: center;
+    margin-top: 300px;
+}
+
+.txtdiv{
+    text-align: center;
+}
+.btn1div {
+display: inline-block;
+width: 48%;
+text-align: right;
+}
+.btn2div {
+    display: inline-block;
+    width: 48%;
+    }
+.txt{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.btn1 ,.btn2{
+    height: 40px;
+    border: none;
+}

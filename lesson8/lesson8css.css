@@ -1,0 +1,132 @@
+.name{
+    margin-top: 30px;
+    display: block;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+}
+.email{
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+}
+.txt{
+    font-size: 25px;
+    width: 300px;
+    display: inline-block;
+}
+.btn1{
+    width: 60px;
+    height: 30px;
+    vertical-align: 25px;
+    margin-left: 30px;
+}
+.btn2{
+    width: 60px;
+    height: 30px;
+    vertical-align: 25px;
+}
+.logo{
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+.url{
+    padding-left: 20px;
+    margin-top: 0px;
+    color:rgba(155, 150, 150, 0.486) ;
+    height: 5vh;
+    width: 500px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: 0 0 5px rgba(155, 150, 150, 0.486);
+    border:none;
+}
+.fname{
+    padding-left: 10px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(156, 154, 154);
+    color:rgb(156, 154, 154);
+    font-size: 20px;
+
+
+}
+.lname{
+    
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(156, 154, 154);
+    color:rgb(156, 154, 154);
+    font-size: 20px;
+}
+.email1{
+    margin-top: 20px;
+    padding-left: 10px;
+    display: block ;
+    height: 45px;
+    width: 510px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(156, 154, 154);
+    color:rgb(156, 154, 154) ;
+    font-size: 20px;
+}
+.btn3{
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 45px;
+    width: 530px;
+    background-color: rgb(94, 97, 238);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.pick {
+    height: 50px;
+    width: 500px;
+    background-color: rgb(233, 233, 233);
+    padding-left: 15px;
+    font-size: 20px;
+    border: none;
+    display: block;
+}
+.dis{
+    margin-top: 20px;
+    height: 50px;
+    width: 500px;
+    background-color: rgb(233, 233, 233);
+    padding-left: 15px;
+    font-size: 20px;
+    border: none;
+    display: block;
+
+}
+.request{
+border: none;
+background-color: black;
+color: white;
+height: 50px;
+width: 200px;
+font-size: 20px;
+}
+.schedual{
+    border: none;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+

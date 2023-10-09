@@ -1,0 +1,84 @@
+.vidio-1 img{
+    width: 250px;
+    
+}
+
+.pic-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+        
+}
+
+.main-div{
+    position: relative;
+
+}
+.time{
+    position: absolute;
+    right: 150px;
+    top:110px;
+    background-color: gray;
+    color: white;
+}
+.info{
+    display: flex;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.img-div{
+    padding-top: 10px;
+}
+.vidio-info{
+    padding-left: 10px;
+}
+.maintooltip1{
+    position: absolute;
+    right: 230px;
+    top:190px;
+    display: flex;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.05);
+    opacity: 0;
+}
+.main{
+    position: relative;
+}
+
+ .img-div:hover +.maintooltip{
+    
+    background-color: blue;
+    opacity: 1;
+}
+
+
+.maintooltip{
+    position: absolute;
+    right: 50px;
+    bottom: -4px;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+    
+
+.btn:hover .maintooltip{
+    opacity: 1;
+    background-color: blue;
+    
+  }
+

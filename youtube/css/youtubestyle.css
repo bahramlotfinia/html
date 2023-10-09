@@ -1,0 +1,125 @@
+img{
+    
+}
+.online{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.online1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+   
+
+}
+.touch{
+    text-decoration: underline;
+}
+.pic{
+    width: 200px;
+    border-radius: 20px;
+    
+
+}
+.pic1{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    object-position: center;
+    margin-top: 48px;
+    float: left;
+}
+.search3{
+    margin-left: 30px;
+    float: left;
+}
+.pic2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 100px;
+}
+.search{
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 20px;
+    border-style: solid;
+    padding-left: 15px;
+}
+.search1{
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: 20px;
+    border:none;
+    padding-left: 15px;
+    box-shadow: 0px 0px 7px 0px;
+    color: rgb(156, 156, 156);
+
+}
+.search2{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    padding-left: 15px;
+    box-shadow: 0px 0px 7px 0px;
+    color: rgb(156, 156, 156);
+    border-style: solid;
+
+}
+.email{
+    display: inline-block;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: rgb(0, 60, 139);
+    color: white;
+    height: 50px;
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+.pic3{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-top: 40px;
+    vertical-align:-12px;
+    
+    
+}
+.btn1{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+
+
+}
+.picmain{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -60px;
+    vertical-align: 120px;
+}

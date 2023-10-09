@@ -1,0 +1,189 @@
+.time{
+    position: absolute;
+    top:6px;
+    left: 160px;
+    background-color: white;
+    color: gray;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 2px 5px;
+}
+
+
+.grid-p{
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.grid-info{
+    font-size: 10px;
+    width: 230px;
+}
+
+.pic{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.div-pic{
+    display: inline-block;
+}
+
+.pic-info{
+    font-size: 10px;
+    display: inline-block;
+    
+}
+
+.main-grid{
+    
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 50px;
+}
+
+.foryou{ 
+    margin-top: 40px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+.like{
+    width: 10px;
+    height: 10px;
+    padding-left:  40px;
+}
+
+.div-like{
+    display: inline-block;
+    
+}
+
+.btnmore{
+    padding: 6px 8px;
+    border: none;
+    color: white;
+    background-color:rgb(243, 122, 122) ;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.div-btnmore{
+    margin-top: 30px;
+}
+
+.showmore{
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 50px;
+}
+
+.div-img{
+    height: 140px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.grid-img{
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+.div-img:hover img{
+    transform: scale(1.5);
+}
+
+.grid-img{
+    width: 220px;
+    height: 140px;
+    object-fit:cover ;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cuisine-img{
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cuisine{
+    margin-top: 20px ;
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cuisine{
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.meal-type{
+    margin-top: 20px ;
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-meal{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.cul img{
+    width: 40px;
+}
+
+.footer{
+    background-color: rgb(230,220,200);
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr  ;
+    margin-top: 70px;
+    padding: 50px;
+    margin-bottom: 50px;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+}
+
+.app{
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+}
+
+.email-add{
+    border: none;
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.subscribe{
+    margin-top: 5px;
+    width: 105px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: lightcoral;
+    font-size: 10px;
+    padding: 5px 1px;
+}

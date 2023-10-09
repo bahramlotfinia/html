@@ -1,0 +1,153 @@
+.div1{
+    background-color: lightblue;
+    flex:1;
+}
+.div2{
+    background-color: lightpink;
+    width: 100px;
+}
+.div3{
+    background-color: lightblue;
+    flex:2;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height:50px ;
+    border-width: 2px;
+    border-style: solid;
+
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    height:50px ;
+    border-width: 2px;
+    border-style: solid;
+    align-items: center;
+
+}
+.div11{
+    background-color: lightblue;
+    width: 100px;
+}
+.div12{
+    background-color: lightpink;
+    width: 100px;
+}
+.div13{
+    background-color: lightblue;
+    width: 100px;
+}
+.div-1{
+    background-color: lightblue;
+    width: 75px;
+}
+.div-2{
+    background-color: lightpink;
+    width: 200px;
+}
+.flex4{
+display: flex;
+flex-direction: row;
+}
+.flex5{
+    display: flex;
+    flex-direction: row;
+    }
+.div-3{
+    background-color: lightblue;
+    width: 50px;
+}
+.div-4{
+    background-color: lightpink;
+    flex: 1;
+}
+.div-5{
+    background-color: lightblue;
+    width: 75px;
+}
+.div-6{
+    background-color: lightpink;
+    width: 100px;
+}
+.div-7{
+    background-color: lightpink;
+    width: 100px;
+}
+.div-8{
+    background-color: lightpink;
+    width: 100px;
+}
+.div-9{
+    background-color: lightpink;
+    width: 100px;
+}
+.flex6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: space-between;
+    
+
+}
+.message{
+    
+    flex: 190px;
+}
+
+.main2 {
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 280px;
+}
+
+.message-flex {
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.p1 {
+    margin: 0px;
+}
+
+.p2 {
+    margin: 0px;
+    background-color: rgb(39, 143, 240);
+    color: white;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cat_div{
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+.catmain{
+    
+}

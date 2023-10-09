@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)http://127.0.0.1:5500/WebApplication1/html/mainfoodly/mainfoodly.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="./Document_files/mainfoodly.css"></head>
+<body>
+    
+     <div class="header">
+          <div class="l-header">
+               <img class="hamburger" src="./Document_files/hamburger-menu.svg">
+               
+          </div>
+          <div class="m-l-header">
+            <img class="logo" src="./Document_files/IconDefault.8f43bd58.svg">
+          </div>
+          
+          <div class="m-r-header">
+            <img class="logo1" src="./Document_files/wordMarkDefault.737d66cd.svg">
+          </div>
+          <section class="m-m-header">
+            <button class="btn">Explore</button>
+          </section>
+          <div class="r-header">
+            <input class="txt-search" placeholder="What are you feeling?">
+          </div>
+                    
+     </div>
+    <div class="explore-menu">
+
+        <div class="menu">
+            <div class="c-1">
+                <ul>
+                    <li>Meal type</li>
+                    <li>Breakfast</li>
+                    <li>Lunch</li>
+                    <li>Dinner</li>
+                    <li>Snacks</li>
+                    <li>Drinks</li>
+                    <li>Desserts</li>
+                    
+                </ul>
+            </div>
+            <div class="c-2">
+                <ul>
+                    <li>Cuisine</li>
+                    <li>French</li>
+                    <li>Mexican</li>
+                    <li>Asian</li>
+                    <li>German</li>
+                    <li>Indian</li>
+                    <li>British</li>
+                    <li>Italian</li>
+                    <li>Eastern European</li>
+                </ul>
+            </div>
+            <div class="c-3">
+                <ul>
+                    <li>Spanish</li>
+                    <li>Chinese</li>
+                    <li>Japanese</li>
+                    <li>Thai</li>
+                    <li>Bangladeshi</li>
+                    <li>Moroccan</li>
+                    <li>Vietnamese</li>
+                    <li>Jamaican</li>
+                    <li>American</li>
+                    <li>Malaysian</li>
+                    <li>Korean</li>
+                </ul>
+            </div>
+            <div class="c-4">
+                <ul>
+                    <li>Difficulty</li>
+                    <li>Super Easy</li>
+                    <li>Easy</li>
+                    <li>Medium</li>
+                    <li>Hard</li>
+                    
+                </ul>
+            </div>
+            <div class="c-5">
+                <ul>
+                    <li>Cook time</li>
+                    <li>Less than 10 mins</li>
+                    <li>Less than 30 mins</li>
+                    <li>Less than 1 hour</li>
+                    <li>More than 1 hour</li>
+                    
+                </ul>
+            </div>
+    </div> 
+
+
+    <div class="slide">
+        <h2>Automatic Slideshow</h2>
+        <p>Change image every 2 seconds:</p>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade" style="display: block;">
+          <div class="numbertext">1 / 3</div>
+          <img src="./Document_files/slide11.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade" style="display: none;">
+          <div class="numbertext">2 / 3</div>
+          <img src="./Document_files/slide12.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade" style="display: none;">
+          <div class="numbertext">3 / 3</div>
+          <img src="./Document_files/slide13.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot active"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+        </script>
+        
+
+
+
+
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>

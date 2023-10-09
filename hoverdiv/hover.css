@@ -1,0 +1,12 @@
+#left , #right{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    float: left ;
+    background-color: blue;
+}
+
+   
+.sec:hover #left{
+    background-color: aqua;
+}

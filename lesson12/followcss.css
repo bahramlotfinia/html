@@ -1,0 +1,73 @@
+.cat-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.cat-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+
+}
+.cat-div{
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: rgba(94, 141, 241, 0.719);
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.info{
+    margin-top: 20px;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: palevioletred;
+    padding-left: 20px;
+    
+    text-align: center;
+    
+
+    
+}
+.txt-div{
+    
+}
+.btn-div{
+    
+}
+.btn1{
+    margin-top: 10px;
+    margin-right: 30px;
+    background-color: palevioletred;
+    border-color: white;
+    border-style: solid;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+.txt{
+    margin-top: 14px;
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    width: 300px;
+    flex: 1 ;
+    
+}
+.p1{
+    color: white;
+}
+    

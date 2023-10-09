@@ -1,0 +1,165 @@
+.hamburger{
+    width: 20px;
+}
+
+.logo{
+    width: 20px;
+}
+
+.logo1{
+    width: 40px;
+}
+
+.header{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    align-items: center;
+    border-bottom-style: solid ;
+    border-bottom-width: 0.3px;
+    border-bottom-color: gray;
+    z-index: 110;
+}
+
+.l-header{
+    padding-left: 20px;
+    width: 50px;
+}
+
+.m-l-header{
+    width: 40px;
+}
+
+.m-r-header{
+   width: 40px;
+}
+
+.m-m-header{
+    width: 70px;
+}
+
+.r-header{
+   width: 350px;
+   flex-grow: 1;
+   flex: 1;
+   justify-content: right;
+   align-items: center;
+   margin-left: 1350px;
+}
+
+.txt-search{
+    width: 200px;
+    border: none;
+    font-size: 10px;
+    padding: 4px 18px;
+    border-radius: 5px;
+    background-image: url(icon/search.svg);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position-y: 4px;
+    background-position-x: 4px;
+}
+
+
+@media (max-width: 750px) {
+    .l-header {
+      
+    }
+    .m-l-header{
+        
+    }
+    .m-r-header{
+        display: none;
+        
+    }
+    .m-m-header{
+        display: none;
+    }
+    .r-header{
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 751px) and (max-width: 1026px) {
+    .l-header {
+        display: none;
+    }
+    .m-l-header{
+        display: none;
+    }
+    .m-r-header{
+        display: block;
+        
+    }
+    .m-m-header{
+        display:block ;
+    }
+    .r-header{
+        margin-left: 550px;
+    }
+}
+
+@media (min-width: 1027px) {
+    .l-header {
+        display: none;
+      }
+      .m-l-header{
+        display: none;
+      }
+      .m-r-header{
+        display:block ;
+      }
+      .m-m-header e{
+        display:block ;
+      }
+      .r-header{
+        margin-left: 1650px;
+    }
+}
+
+.explore{
+    font-size: 10px;
+}
+
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 10px;
+}
+
+.menu{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 150px;
+    padding-top: 0px;
+    display: flex;
+    margin-left: 0;
+    gap: 10px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: rgb(128, 128, 128);
+    position: fixed;
+    z-index: 100;
+}
+
+.explore-menu{
+    display: none;
+}
+
+.m-m-header:hover .explore-menu{
+   display: block;
+
+}
+
+

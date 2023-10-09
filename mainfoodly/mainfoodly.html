@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainfoodly.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+    <section>
+     <div class="header">
+          <div class="l-header">
+               <img class="hamburger" src="icon/hamburger-menu.svg">
+               
+          </div>
+          <div class="m-l-header">
+            <img class="logo" src="icon/IconDefault.8f43bd58.svg">
+          </div>
+          
+          <div class="m-r-header">
+            <img class="logo1" src="icon/wordMarkDefault.737d66cd.svg">
+          </div>
+          <nav class="m-m-header">
+            <div class="explore">Explore</div>
+            <div class="explore-menu">
+
+                <div class="menu">
+                    <div class="c-1">
+                        <ul>
+                            <li>Meal type</li>
+                            <li>Breakfast</li>
+                            <li>Lunch</li>
+                            <li>Dinner</li>
+                            <li>Snacks</li>
+                            <li>Drinks</li>
+                            <li>Desserts</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="c-2">
+                        <ul>
+                            <li>Cuisine</li>
+                            <li>French</li>
+                            <li>Mexican</li>
+                            <li>Asian</li>
+                            <li>German</li>
+                            <li>Indian</li>
+                            <li>British</li>
+                            <li>Italian</li>
+                            <li>Eastern European</li>
+                        </ul>
+                    </div>
+                    <div class="c-3">
+                        <ul>
+                            <li>Spanish</li>
+                            <li>Chinese</li>
+                            <li>Japanese</li>
+                            <li>Thai</li>
+                            <li>Bangladeshi</li>
+                            <li>Moroccan</li>
+                            <li>Vietnamese</li>
+                            <li>Jamaican</li>
+                            <li>American</li>
+                            <li>Malaysian</li>
+                            <li>Korean</li>
+                        </ul>
+                    </div>
+                    <div class="c-4">
+                        <ul>
+                            <li>Difficulty</li>
+                            <li>Super Easy</li>
+                            <li>Easy</li>
+                            <li>Medium</li>
+                            <li>Hard</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="c-5">
+                        <ul>
+                            <li>Cook time</li>
+                            <li>Less than 10 mins</li>
+                            <li>Less than 30 mins</li>
+                            <li>Less than 1 hour</li>
+                            <li>More than 1 hour</li>
+                            
+                        </ul>
+                    </div>
+            </div> 
+        </nav>
+          <div class="r-header">
+            <input class="txt-search" placeholder="What are you feeling?">
+          </div>
+                    
+     </div>
+    
+    </section>
+    <section>
+    <div class="slide">
+       
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img class="slide-img" src="img/slide11.jpg" style="width:100%">
+          <div class="text">coconut porridge</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/slide12.jpg" style="width:100%">
+          <div class="text">itty bitty breakfast tacos</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/slide13.jpg" style="width:100%">
+          <div class="text">chocolat x raspbery</div>
+        </div>
+        
+        </div>
+       
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+        </script>
+     </div>
+    </section>
+    <section>
+     <div class="foryou"> For you</div>
+     <div class="main-grid">
+        <div class="div-grid-item-show">
+            <div class="grid-item-show">
+                <div class="div-img"><img class="grid-img" src="img/grid-1.webp"></div>
+                <div class="time">1.35 mins</div>
+                <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                <div class="div-pic" >
+                    <img class="pic" src="img/pic-1.jpg">
+                    <div class="pic-info">beccasvganfood</div>
+                 </div>
+              </div>
+        </div>
+
+        <div class="div-grid-item-show">
+            <div class="grid-item-show">
+                <div class="div-img"><img class="grid-img" src="img/grid-2.webp"></div>
+                <div class="time">1.35 mins</div>
+                <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                <div class="div-pic" >
+                    <img class="pic" src="img/pic-1.jpg">
+                    <div class="pic-info">beccasvganfood</div>
+                 </div>
+              </div>
+        </div>
+
+        <div class="div-grid-item-show">
+            <div class="grid-item-show">
+                <div class="div-img"><img class="grid-img" src="img/grid-3.webp"></div>
+                <div class="time">1.35 mins</div>
+                <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                <div class="div-pic" >
+                    <img class="pic" src="img/pic-1.jpg">
+                    <div class="pic-info">beccasvganfood</div>
+                 </div>
+              </div>
+        </div>
+
+        <div class="div-grid-item-show">
+            <div class="grid-item-show">
+                <div class="div-img"><img class="grid-img" src="img/grad-4.webp"></div>
+                <div class="time">1.35 mins</div>
+                <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                <div class="div-pic" >
+                    <img class="pic" src="img/pic-1.jpg">
+                    <div class="pic-info">beccasvganfood</div>
+                 </div>
+              </div>
+        </div>
+
+        <div class="div-grid-item-show">
+            <div class="grid-item-show">
+                <div class="div-img"><img class="grid-img" src="img/grid-5.webp"></div>
+                <div class="time">1.35 mins</div>
+                <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                <div class="div-pic" >
+                    <img class="pic" src="img/pic-1.jpg">
+                    <div class="pic-info">beccasvganfood</div>
+                 </div>
+              </div>
+        </div>
+
+        <div class="div-grid-item-show">
+            <div class="grid-item-show">
+                <div class="div-img"><img class="grid-img" src="img/grid-6.webp"></div>
+                <div class="time">1.35 mins</div>
+                <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                <div class="div-pic" >
+                    <img class="pic" src="img/pic-1.jpg">
+                    <div class="pic-info">beccasvganfood</div>
+                 </div>
+              </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="div-btnmore">
+            <button class="btnmore">Show more</button>
+        </div>
+
+        <div class="showmore">
+            
+            
+                <div class="grid-item-show">
+                    <div class="div-img"><img class="grid-img" src="img/grid-1.webp"></div>
+                    <div class="time">1.35 mins</div>
+                    <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                    <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                    <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                    <div class="div-pic" >
+                        <img class="pic" src="img/pic-1.jpg">
+                        <div class="pic-info">beccasvganfood</div>
+                     </div>
+                  </div>
+            
+
+            
+                <div class="grid-item-show">
+                    <div class="div-img"><img class="grid-img" src="img/grid-2.webp"></div>
+                    <div class="time">1.35 mins</div>
+                    <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                    <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                    <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                    <div class="div-pic" >
+                        <img class="pic" src="img/pic-1.jpg">
+                        <div class="pic-info">beccasvganfood</div>
+                     </div>
+                  </div>
+            
+
+
+                <div class="grid-item-show">
+                    <div class="div-img"><img class="grid-img" src="img/grid-3.webp"></div>
+                    <div class="time">1.35 mins</div>
+                    <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                    <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                    <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                    <div class="div-pic" >
+                        <img class="pic" src="img/pic-1.jpg">
+                        <div class="pic-info">beccasvganfood</div>
+                     </div>
+                  </div>
+            
+
+
+                <div class="grid-item-show">
+                    <div class="div-img"><img class="grid-img" src="img/grad-4.webp"></div>
+                    <div class="time">1.35 mins</div>
+                    <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                    <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                    <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                    <div class="div-pic" >
+                        <img class="pic" src="img/pic-1.jpg">
+                        <div class="pic-info">beccasvganfood</div>
+                     </div>
+                  </div>
+            
+
+
+                <div class="grid-item-show">
+                    <div class="div-img"><img class="grid-img" src="img/grid-5.webp"></div>
+                    <div class="time">1.35 mins</div>
+                    <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                    <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                    <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                    <div class="div-pic" >
+                        <img class="pic" src="img/pic-1.jpg">
+                        <div class="pic-info">beccasvganfood</div>
+                     </div>
+                  </div>
+            
+
+                  
+                <div class="grid-item-show">
+                    <div class="div-img"><img class="grid-img" src="img/grid-6.webp"></div>
+                    <div class="time">1.35 mins</div>
+                    <p class="grid-p">Whipped tofu with sticky mushrooms</p>
+                    <div class="div-like"><img class="like" src="icon/haert.png"> </div>
+                    <p class="grid-info">Want something fancy but also don’t want to spend ages making it? Then this is the dish fo...</p>
+                    <div class="div-pic" >
+                        <img class="pic" src="img/pic-1.jpg">
+                        <div class="pic-info">beccasvganfood</div>
+                     </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="div-cuisine">Explore by cuisine</div>
+        <div class="cuisine">
+            
+            <div class="divcuisine">
+                    <img class="cuisine-img" src="img/french.webp">
+                    <div>Franch</div>
+            </div>  
+            
+            <div class="divcuisine">
+                <img class="cuisine-img" src="img/asian.webp">
+                <div>Asian</div>
+            </div>
+
+            <div class="divcuisine">
+                <img class="cuisine-img" src="img/german.webp">
+                <div>German</div>
+            </div>
+
+            <div class="divcuisine">
+                <img class="cuisine-img" src="img/greek.webp">
+                <div>Greek</div>
+            </div>
+
+        </div>     
+   </section>
+
+
+   <section>
+        <div class="div-meal">Explore by meal type</div>
+        <div class="meal-type">
+            
+            <div class="meal">
+                    <img class="cuisine-img" src="img/breakfast.webp">
+                    <div>Breakfast</div>
+            </div>  
+            
+            <div class="meal">
+                <img class="cuisine-img" src="img/lunch.webp">
+                <div>Lunch</div>
+            </div>
+
+            <div class="meal">
+                <img class="cuisine-img" src="img/dinner.webp">
+                <div>Dinner</div>
+            </div>
+
+            <div class="meal">
+                <img class="cuisine-img" src="img/snacks.webp">
+                <div>Snacks</div>
+            </div>
+
+         </div>     
+    </section>
+
+
+    <section>
+        <div class="footer">
+            <div class="cul">
+                <div><img src="icon/wordMarkDefault.737d66cd.svg"></div>
+                <div>All in one cooking app helping you discover, shop and plan.</div>
+                <div></div>
+            </div>
+            <div class="cul">
+                <div>About</div>
+                <div>Terms & Conditions</div>
+                <div>Privacy Policy</div>
+                <div>Contact us</div>
+            </div>
+            <div class="cul">
+                <div>Get the app</div>
+                <div><img class="app" src="icon/app.webp"></div>
+            </div>
+            <div class="cul">
+                <div>Subscribe to our newsletter for inspiration</div>
+                <div><input class="email-add" type="text" placeholder="Email address"> </div>
+                <div><button class="subscribe">Subscribe</button></div>
+            </div>
+        </div>
+    </section>
+
+   
+
+</body>
+</html>
