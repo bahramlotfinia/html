@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="
+        cost=cost+5;
+        console.log(`your cost is:$ ${cost}`);
+        console.log(`tax:$ ${total=cost*0.1}`);
+        ">coffee</button>
+    <button onclick="
+        cost=cost+3;
+        console.log(`your cost is:$ ${cost}`);
+        console.log(`tax:$ ${total=cost*0.1}`);
+        ">bagels</button>
+    <button onclick="
+        cost=cost+9;
+        console.log(`your cost is:$ ${cost}`);
+        console.log(`tax:$ ${total=cost*0.1}`);
+        ">soup</button>
+    <button onclick="
+        cost=0;
+        total=0;
+        console.log(`cost and tax are reset:$ ${cost}`);
+
+    " >reset</buttom>
+    <script>
+        let cost=0;
+        let total=0;
+        
+    </script>
+</body>
+</html>
