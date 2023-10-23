@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="
+        let celsius=25;
+        converToFahrenheit(celsius); 
+        console.log(`${fahrenheit} F` );  
+    ">celsius</button>
+
+    <button onclick="
+        let fahrenheit=86;
+        convertToCelsius(fahrenheit);
+        console.log(`${celsius} C`);
+    ">fahrenheit</button>
+    <button onclick="
+        let degrees=86;
+        
+        let unit='C';
+        convertTemperature(degrees,unit);
+       
+        
+    ">convertTemperature</button>
+    <script>
+        function converToFahrenheit(celsius){
+            
+            fahrenheit=(celsius*9/5)+32;
+            return fahrenheit;
+        }
+
+        function convertToCelsius(fahrenheit){
+            
+            celsius=(fahrenheit-32)*5/9;
+            return celsius;
+        }
+
+        function convertTemperature(degrees,unit){
+            if(unit === 'F'){
+                fahrenheit=(degrees*9/5)+32;
+                console.log(`${fahrenheit} ${unit}`)
+            }else{
+                celsius=(degrees-32)*5/9;
+                console.log(`${celsius} ${unit}`)
+                
+            }
+                
+        }
+    </script>
+</body>
+</html>

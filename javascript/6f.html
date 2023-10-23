@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="
+        let random=Math.random();
+        let guess='heads';
+        
+        ran(random);
+        result(guess,random1);
+    ">Random</button>
+    <script>
+        function ran(random){
+            if(random<0.5){
+                console.log('heads')
+                random1='heads';
+                return random1;
+            }else{
+                console.log('tails');
+                random1='tails';
+                return random1;
+            } 
+        };
+        function result(guess,random1){ 
+            (guess===random1) ? console.log('you win!') : console.log('you loss!');
+            
+        }
+    </script>
+</body>
+</html>
