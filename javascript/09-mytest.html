@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input class="js-input-1" type="text" onkeydown="
+    if(event.key==='Enter'){
+        
+
+ 
+    document.querySelector('.js-input-2');
+    
+ 
+
+
+    }    
+    ">
+    <br/>
+    <input class="js-input-2" type="text">
+    <br/>
+    <p class="js-output"></p>
+    <button class="js-btn" onclick="
+        cheack();
+    ">cheack</button>
+
+    <br/>
+    
+    <script>
+        function cheack(){
+            const txtValue1=document.querySelector('.js-input-1');
+            let txtV1=Number(txtValue1.value);
+            const txtValue2=document.querySelector('.js-input-2');
+            let txtV2=Number(txtValue2.value);
+            if(txtV1>txtV2){
+                document.querySelector('.js-output').innerHTML=`txt1>txt2 ${txtV1}>${txtV2}`;
+            }else{
+                document.querySelector('.js-output').innerHTML=`txt2>txt1 ${txtV1}<${txtV2}`;
+                
+            }
+
+        }
+    </script>
+</body>
+</html>

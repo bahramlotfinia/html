@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="
+
+        calculate(1);
+    ">1</button>
+    <button onclick="
+        
+        calculate(2);
+    ">2</button>
+    <button onclick="
+        calculate(3);
+    ">3</button>
+    <button onclick="
+        calculate('+');
+    ">+</button>
+
+    <br/>
+    <br/>
+    <button onclick="
+        calculate(4);
+    ">4</button>
+   
+   <button onclick="
+        calculate(5);
+    ">5</button>
+   
+   <button onclick="
+        calculate(6);
+    ">6</button>
+   
+   <button onclick="
+        calculate('-');
+    ">-</button>
+    <br/>
+    <br/>
+    <button onclick="
+        calculate(7);
+    ">7</button>
+    
+    <button onclick="
+        calculate(8);
+    ">8</button>
+
+    <button onclick="
+        calculate(9);
+    ">9</button>
+    
+    <button onclick="
+        calculate('*');
+    ">*</button>
+    <br/>
+    <br/>
+    
+    <button onclick="
+        calculate(0);
+    ">0</button>
+    
+    <button onclick="
+
+        calculate('.');
+    ">.</button>
+    
+
+    <button onclick="
+        
+        
+        cal1 = eval(cal1);
+        console.log(cal1);
+
+        // Remember to save the calculation here.
+        localStorage.setItem('cal1', cal1);
+     
+
+
+    ">=</button>
+    
+    <button onclick="
+        calculate('/');
+    ">/</button>
+    <br/>
+    <br/>
+    <button onclick="
+        cal1='';
+        console.log('cleared');
+        
+    ">clear</button>
+    <script>
+         let cal1='';
+         
+         
+        
+    
+    let calculation = localStorage.getItem('cal1') || '';
+
+    function calculate(value) {
+        cal1 += value;
+        console.log(cal1);
+        localStorage.setItem('cal1', cal1);
+    }
+
+// Optional: you can also create a function in order
+// to reuse this code.
+    function saveCalculation() {
+    localStorage.setItem('cal1', cal1);
+    }
+
+    
+    </script>
+</body>
+</html>
+
+</body>
+</html>
